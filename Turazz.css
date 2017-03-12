@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,400');
+
+html, body { height: 100%; }
+body { margin: 0px; }
+
+.felsocsik {
+
+background-image: url("turazz_kep.JPG");
+height: 100%;
+
+    /*parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {margin: 0px; 
+   font-family: 'Work Sans', sans-serif;
+   font-size: 55px;
+   color:white;
+   position: fixed;
+    left: 450px;
+    top: 320px;
+}
+
+div { border: 4px; height:200px;}
